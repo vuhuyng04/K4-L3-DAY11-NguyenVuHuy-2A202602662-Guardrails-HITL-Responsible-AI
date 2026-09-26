@@ -1,5 +1,16 @@
 # Day 11 — Controlled Agent Security (2026)
 
+> **Học viên:** Nguyễn Vũ Huy · **MSSV:** 2A202602662
+>
+> ```powershell
+> py -3.13 -m venv .venv; .\.venv\Scripts\Activate.ps1; pip install -r requirements.txt
+> Copy-Item .env.example .env   # điền OPENROUTER_API_KEY + OPENAI_API_KEY
+> python src/main.py --part 2   # CP2 guardrails (in terminal)
+> python src/main.py --part 3   # CP3 → outputs/results.json, audit_log.json, metrics.json
+> python src/main.py --part 4   # CP4 → outputs/attack_results.json
+> python scripts/grade.py --submission-dir . --out outputs/grade_report.json
+> ```
+
 > 👤 **Hình thức:** bài tập **cá nhân** (1 người / 1 MSSV).  
 > 🎯 **Mục tiêu:** xây **Blue** (phòng thủ), rồi red-team **Red** + **Red Advance**.  
 > ✅ Làm theo **Checkpoint 1 → 5** trong [`CHECKPOINTS.md`](CHECKPOINTS.md) · nộp theo [`SUBMISSION.md`](SUBMISSION.md).
